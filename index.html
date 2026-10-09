@@ -23,7 +23,7 @@ h1{font-size:2.1rem;line-height:1.2;letter-spacing:-.02em;margin-bottom:.7rem}
 .btn-p{background:var(--blue);color:#fff}.btn-p:hover{background:var(--blue-d)}
 .btn-s{background:#fff;color:var(--text);border:1px solid var(--line)}
 .hero-art{background:var(--card);border:1px solid var(--line);border-radius:18px;padding:1rem;box-shadow:0 10px 30px rgba(2,6,23,.06)}
-.hero-art .row{display:flex;justify-content:space-between;align-items:center;background:#f1f5f9;border-radius:10px;padding:.7rem .9rem;margin-top:.7rem;font-weight:700}
+.hero-art .row{display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:.4rem;background:#f1f5f9;border-radius:10px;padding:.7rem .9rem;margin-top:.7rem;font-weight:700}
 .dot{width:14px;height:14px;border-radius:50%;display:inline-block;margin-right:.4rem;vertical-align:middle}
 .card{background:var(--card);border:1px solid var(--line);border-radius:var(--r);padding:1.4rem;margin-top:1.4rem}
 .card h2{font-size:1.3rem;margin-bottom:.6rem;letter-spacing:-.01em}
@@ -58,6 +58,32 @@ footer{color:var(--muted);font-size:.85rem;text-align:center;margin-top:2rem}
 .reveal{opacity:0;transform:translateY(14px);transition:opacity .6s ease,transform .6s ease}
 .reveal.in{opacity:1;transform:none}
 :focus-visible{outline:3px solid #93c5fd;outline-offset:2px}
+html{scroll-padding-top:84px}
+body{overflow-x:hidden}
+canvas{-webkit-tap-highlight-color:transparent}
+#bank .mini>h3{display:flex;align-items:center;justify-content:space-between;gap:.5rem;flex-wrap:wrap}
+#bank .mini>h3 .btn{float:none!important;flex:0 0 auto}
+.opt,.mini p,.quiz-q p{overflow-wrap:break-word}
+@media(max-width:700px){
+nav{padding:.7rem .9rem}
+.links{gap:.85rem;font-size:.85rem;overflow-x:auto;white-space:nowrap;padding-bottom:.25rem;-webkit-overflow-scrolling:touch;scrollbar-width:none}
+.links::-webkit-scrollbar{display:none}
+.links li{flex:0 0 auto}
+main{padding:0 .9rem 3rem}
+.hero{padding:1.6rem 0 1.2rem;gap:1.2rem}
+h1{font-size:1.55rem}
+.sub{font-size:.95rem}
+.card{padding:1rem;margin-top:1rem}
+.card h2{font-size:1.12rem}
+.grid2{gap:.7rem}
+.hero-art .row{font-size:.9rem}
+.seg button{padding:.6rem .95rem;font-size:.9rem}
+.box b{font-size:1.05rem}
+.controls .btn{flex:1 1 140px;text-align:center}
+code.rumus{font-size:.85rem}
+#tLangkah{font-size:.88rem}
+.quiz-q p{font-size:.95rem}
+}
 </style>
 </head>
 <body>
